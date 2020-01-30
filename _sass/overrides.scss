@@ -9,6 +9,7 @@ blockquote{
     padding-left: 1em;
 }
 
+.page-content ol,
 ol {   
     list-style-type: decimal;
 }
@@ -56,6 +57,10 @@ h2 {
     @include fs-5;
 }
 
+.navigation-list-child-list > .navigation-list-item {
+    @include fs-4;
+}
+
 .main-nav {
     display: block;
 }
@@ -76,7 +81,7 @@ hr {
 code{
     border-radius: 3px;
     background-color: #222222;
-    border-color: #afafaf;
+    border-color: rgba(255, 255, 255, .1);
     color: #bebebe;
 }
 
@@ -89,8 +94,10 @@ table{
     color: #bebebe;
 }
 
+td,
+th,
 tr{
-    border-color: #343434;
+    border-color: rgb(52, 52, 52);
     background: #1c1c1c;
 }
 
@@ -102,4 +109,8 @@ h4,
 .text-delta{
     text-transform: none;
     border-bottom-width: 0px;
+}
+
+.navigation{
+    padding-top: 24px;
 }
