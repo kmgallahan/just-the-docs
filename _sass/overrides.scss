@@ -94,15 +94,16 @@ table{
     color: #bebebe;
 }
 
+tr:nth-child(2n){
+    background: #141414;
+}
+
+thead th,
 td,
 th,
 tr{
     border-color: rgb(52, 52, 52);
     background: #1c1c1c;
-}
-
-tr:nth-child(2n){
-    background: #141414;
 }
 
 h4,
