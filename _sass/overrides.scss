@@ -69,9 +69,14 @@ h2 {
     border-right-color: #343434;
 }
 
+hr {
+    background-color: #343434;
+}
+
 code{
     border-radius: 3px;
     background-color: #222222;
+    border-color: #afafaf;
     color: #bebebe;
 }
 
@@ -91,4 +96,10 @@ tr{
 
 tr:nth-child(2n){
     background: #141414;
+}
+
+h4,
+.text-delta{
+    text-transform: none;
+    border-bottom-width: 0px;
 }
