@@ -1,3 +1,49 @@
 //
 // Custom overrides from a user.
 //
+blockquote{
+    border-left: .25em solid #dfe2e5;
+}
+
+ol {   
+    list-style-type: decimal;
+}
+
+h1,
+h2 {
+    padding-bottom: .3em;
+    border-bottom: 1px solid #eaecef;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.title-Style,
+.title-as,
+.title-Code {
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+.title-Style {
+    font-style: italic;
+}
+
+.title-Code { 
+    font-family: $mono-font-family;
+}
+
+.site-header {
+    display: inline;
+}
+
+.navigation-list-item {
+    @include fs-5;
+}
+
+.main-nav {
+    display: block;
+}

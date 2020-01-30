@@ -22,9 +22,8 @@
     &::before {
       position: absolute;
       margin-top: 0.3em;
-      margin-left: -0.8em;
+      margin-left: -0.5em;
       color: rgba($body-text-color, 0.3);
-      content: "- ";
     }
 
     &.active {
