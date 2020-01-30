@@ -2,7 +2,11 @@
 // Custom overrides from a user.
 //
 blockquote{
-    border-left: .25em solid #dfe2e5;
+    border-left: .25em solid #343434;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 ol {   
@@ -12,32 +16,40 @@ ol {
 h1,
 h2 {
     padding-bottom: .3em;
-    border-bottom: 1px solid #eaecef;
+    border-bottom: 1px solid #343434;
     border-bottom-width: 1px;
     border-bottom-style: solid;
+    font-weight: 600;
 }
 
 h1 {
     font-size: 2em;
 }
 
-.title-Style,
-.title-as,
-.title-Code {
-    padding-left: 0em;
-    padding-right: 0em;
+h2 {
+    color: #dcdcdc;
 }
 
-.title-Style {
+#title-Style,
+#title-as,
+#title-Code {
+    padding-left: .2em;
+    padding-right: .2em;
+    flex-grow: 0;
+}
+
+#title-Style {
     font-style: italic;
 }
 
-.title-Code { 
+#title-Code { 
     font-family: $mono-font-family;
+    padding-top: .8rem;
 }
 
 .site-header {
     display: inline;
+    justify-content: center;
 }
 
 .navigation-list-item {
