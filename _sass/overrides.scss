@@ -48,7 +48,7 @@ h2 {
 }
 
 .site-header {
-    display: inline;
+    display: flex;
     justify-content: center;
 }
 
@@ -58,4 +58,37 @@ h2 {
 
 .main-nav {
     display: block;
+}
+
+.page-header,
+.site-header{
+    border-bottom-color: #343434;
+}
+
+.side-bar{
+    border-right-color: #343434;
+}
+
+code{
+    border-radius: 3px;
+    background-color: #222222;
+    color: #bebebe;
+}
+
+.table-wrapper{
+    border-radius: 0em;
+}
+
+table{
+    border-color: #343434;
+    color: #bebebe;
+}
+
+tr{
+    border-color: #343434;
+    background: #1c1c1c;
+}
+
+tr:nth-child(2n){
+    background: #141414;
 }
