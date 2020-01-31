@@ -53,11 +53,11 @@ h2 {
 }
 
 .page-header,
-.site-header{
+.site-header {
     border-bottom-color: #343434;
 }
 
-.side-bar{
+.side-bar {
     border-right-color: #343434;
 }
 
@@ -65,23 +65,23 @@ hr {
     background-color: #343434;
 }
 
-code{
+code {
     border-radius: 3px;
     background-color: #222222;
     border-color: rgba(255, 255, 255, .1);
     color: #bebebe;
 }
 
-.table-wrapper{
+.table-wrapper {
     border-radius: 0em;
 }
 
-table{
+table {
     border-color: #343434;
     color: #bebebe;
 }
 
-tr:nth-child(2n){
+tr:nth-child(2n) {
     background: #141414;
 }
 
@@ -94,16 +94,16 @@ tr{
 }
 
 h4,
-.text-delta{
+.text-delta {
     text-transform: none;
     border-bottom-width: 0px;
 }
 
-.navigation{
+.navigation {
     padding-top: 24px;
 }
 
-blockquote{
+blockquote {
     border-left: .25em solid #343434;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
@@ -111,11 +111,12 @@ blockquote{
     padding-left: 1em;
 }
 
+pre,
 h3,
 ol,
 ul,
 p,
-blockquote{
+blockquote {
     margin-left: .5em;
     max-width: 700px;
 }
