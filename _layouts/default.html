@@ -68,7 +68,7 @@ layout: table_wrappers
             {% endif %}
           {% endunless %} -->
           {% if page.url == "/"%} 
-          {% assign page.url "/index.html" %}
+          {% assign page.url = "/index.html" %}
           {% endif %}
           {% assign edit_link = site.github_docs | append: page.url | replace: ".html", ".md" %}
             <a id="edit-link" href="{{ edit_link }}">Edit</a>
