@@ -130,6 +130,7 @@ blockquote {
     float: right;
     @include fs-3;
     z-index: 10;
+    position: relative;
 }
 
 #main-content {
