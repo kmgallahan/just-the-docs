@@ -164,8 +164,13 @@ blockquote {
 }
 
 .text-small {
-    margin-bottom: 0rem;
+    margin-bottom: 0rem !important;
     margin-left: 0em;
     display: flex;
     justify-content: space-evenly;
+}
+
+.site-footer {
+    margin-top: 8;
+    margin-bottom: 8;
 }
