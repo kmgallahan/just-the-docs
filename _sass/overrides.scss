@@ -140,7 +140,7 @@ blockquote {
 
 .breadcrumb-nav {
     @include mq(md) {
-      margin-top: -$sp-5;
+      margin-bottom: $sp-2;
     }
 }
 
