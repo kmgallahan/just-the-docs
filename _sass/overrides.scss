@@ -149,3 +149,16 @@ blockquote {
 .breadcrumb-nav-list{
     margin-bottom: 0px;
 }
+
+::-webkit-scrollbar {
+    background-color: #1c1e1f;
+    color: #181818;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #181818;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2a2c2e;
+}
