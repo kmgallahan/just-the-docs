@@ -1,15 +1,10 @@
 //
 // Custom overrides from a user.
 //
-.page-content ol,
-ol {   
-    list-style-type: decimal;
-}
-
 h1,
 h2 {
     padding-bottom: .3em;
-    border-bottom: 1px solid #343434;
+    border-bottom: 1px solid #242424;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     font-weight: 600;
@@ -116,6 +111,8 @@ blockquote{
     padding-left: 1em;
 }
 
+ol,
+ul,
 p,
 blockquote{
     margin-left: .5em;
