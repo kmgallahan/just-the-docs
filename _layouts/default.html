@@ -64,11 +64,12 @@ layout: table_wrappers
                   <li class="breadcrumb-nav-list-item"><span>{{ page.title }}</span></li>
                 </ol>
                 <p>{{site.github_url}}</p>
-                <p>{{site.page.url}}</p>
+                <p>{{page.url}}</p>
                 {% assign edit_link = site.github_url | append: page.url | replace: ".html", ".md" %}
                 <p>{{edit_link}}</p>
                 <a id="edit-link" href="{{ edit_link }}">Edit</a>
               </nav>
+              <a id="edit-link" href="{{ edit_link }}">Edit</a>
             {% endif %}
           {% endunless %}
           <div id="main-content" class="page-content" role="main">
