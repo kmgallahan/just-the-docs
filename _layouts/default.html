@@ -63,7 +63,7 @@ layout: table_wrappers
                   {% endif %}
                   <li class="breadcrumb-nav-list-item"><span>{{ page.title }}</span></li>
                 </ol>
-                <a id="edit-link" href="{{ (site.github_url | append: page.url) | replace ".html", ".md" }}">Edit</a>
+                <a id="edit-link" href="{% site.github_url | append: page.url | replace ".html", ".md" %}">Edit</a>
               </nav>
             {% endif %}
           {% endunless %}
