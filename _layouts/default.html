@@ -71,7 +71,8 @@ layout: table_wrappers
           {% assign page.url = "/index.html" %}
           {% endif %}
           {% assign edit_link = site.github_docs | append: page.url | replace: ".html", ".md" %}
-            <a id="edit-link" href="{{ edit_link }}">Edit</a>
+          <!-- <a id="edit-link" href="{{ edit_link }}">Edit</a> -->
+          <a id="edit-link" href="{{ edit_link }}" class="Box-btn-octicon btn-octicon float-right" aria-label="Edit this page"><svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 011.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"></path></svg></a>
           <div id="main-content" class="page-content" role="main">
             {% if site.heading_anchors != false %}
               {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#link\"></use></svg>" anchorClass="anchor-heading" %}
