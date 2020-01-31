@@ -63,7 +63,7 @@ layout: table_wrappers
                   {% endif %}
                   <li class="breadcrumb-nav-list-item"><span>{{ page.title }}</span></li>
                 </ol>
-                <p>{{ "kmgallahan.github.io/Style-as-Code" + page.url.replace(/\.(html)($|\?)/, '.md$2') }}</p>
+                <p>{{ "kmgallahan.github.io/Style-as-Code".concat(page.url.replace(/\.(html)($|\?)/, '.md$2')) }}</p>
               </nav>
             {% endif %}
           {% endunless %}
