@@ -54,6 +54,7 @@ layout: table_wrappers
           {% unless page.url == "/" %}
             {% if page.parent %}
               <nav class="breadcrumb-nav">
+
                 <ol class="breadcrumb-nav-list">
                   {% if page.grand_parent %}
                     <li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.grand_parent }}</a></li>
@@ -63,12 +64,8 @@ layout: table_wrappers
                   {% endif %}
                   <li class="breadcrumb-nav-list-item"><span>{{ page.title }}</span></li>
                 </ol>
-                <p>{{site.github_url}}</p>
-                <p>{{page.url}}</p>
-                {% assign edit_link = site.github_url | append: page.url | replace: ".html", ".md" %}
-                <p>{{edit_link}}</p>
-                <a id="edit-link" href="{{ edit_link }}">Edit</a>
               </nav>
+              {% assign edit_link = site.github_url | append: page.url | replace: ".html", ".md" %}
               <a id="edit-link" href="{{ edit_link }}">Edit</a>
             {% endif %}
           {% endunless %}
