@@ -20,7 +20,7 @@ layout: table_wrappers
         <a href="{{ site.url }}{{ site.baseurl }}" class="site-title lh-tight" id="title-Style">Style</a>
         <a href="{{ site.url }}{{ site.baseurl }}" class="site-title lh-tight" id="title-as"> as </a>
         <a href="{{ site.url }}{{ site.baseurl }}" class="site-title lh-tight" id="title-Code">Code</a>      
-        <button class="menu-button fs-3 js-main-nav-trigger" data-text-toggle="Hide" type="button">Menu</button>
+        <!-- <button class="menu-button fs-3 js-main-nav-trigger" data-text-toggle="Hide" type="button">Menu</button> -->
       </div>
       <div class="navigation main-nav js-main-nav">
         {% include nav.html %}
@@ -51,7 +51,7 @@ layout: table_wrappers
           {% endif %} -->
         </div>
         <div class="page">
-          {% unless page.url == "/" %}
+          <!-- {% unless page.url == "/" %}
             {% if page.parent %}
               <nav class="breadcrumb-nav">
 
@@ -66,7 +66,7 @@ layout: table_wrappers
                 </ol>
               </nav>
             {% endif %}
-          {% endunless %}
+          {% endunless %} -->
           {% assign edit_link = site.github_docs | append: page.url | replace: ".html", ".md" %}
             <a id="edit-link" href="{{ edit_link }}">Edit</a>
           <div id="main-content" class="page-content" role="main">
