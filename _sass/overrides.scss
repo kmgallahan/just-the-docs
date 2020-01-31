@@ -78,13 +78,13 @@ code {
 }
 
 .table-wrapper {
-    border-radius: 0em;
-    width: auto;
+    border-radius: 0em;    
 }
 
 table {
     border-color: #343434;
     color: #bebebe;
+    min-width: unset;
 }
 
 tr:nth-child(2n) {
