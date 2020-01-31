@@ -14,7 +14,12 @@ h1 {
     font-size: 2em;
 }
 
+.page-content h1:first-of-type {
+    margin-top: 0;
+}
+
 h2 {
+    margin-top: 0;
     color: #dcdcdc;
 }
 
