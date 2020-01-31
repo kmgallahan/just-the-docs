@@ -129,4 +129,10 @@ blockquote {
 #edit-link{
     float: right;
     @include fs-3;
+    z-index: 10;
+}
+
+#main-content {
+    position: relative;
+    z-index: 1;
 }
