@@ -151,12 +151,12 @@ blockquote {
 }
 
 ::-webkit-scrollbar {
-    background-color: #1c1e1f;
-    color: #181818;
+    background-color: $grey-dk-300;
+    color: #2a2c2e;
 }
 
 ::-webkit-scrollbar-corner {
-    background-color: #181818;
+    background-color: $grey-dk-300;
 }
 
 ::-webkit-scrollbar-thumb {
