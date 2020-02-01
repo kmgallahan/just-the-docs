@@ -33,12 +33,12 @@ figure.highlight {
 .highlight .c { color: #6B8E23; } // comment //
 .highlight .err { color: #93a1a1; } // error //
 .highlight .g { color: #93a1a1; } // generic //
-.highlight .k { color: #48D1CC; } // keyword //
+.highlight .k { color: #3399CC; } // keyword //
 .highlight .l { color: #D3D3D3; } // literal //
-.highlight .n { color: #00CED1; } // name //
+.highlight .n { color: #D3D3D3; } // name //
 .highlight .o { color: #00CED1; } // operator //
 .highlight .x { color: #cb4b16; } // other //
-.highlight .p { color: #93a1a1; } // punctuation //
+.highlight .p { color: #A9A9A9; } // punctuation //
 .highlight .cm { color: #6B8E23; } // comment.multiline //
 .highlight .cp { color: #6B8E23; } // comment.preproc //
 .highlight .c1 { color: #6B8E23; } // comment.single //
@@ -58,7 +58,7 @@ figure.highlight {
 .highlight .kn { color: #ADD8E6; } // keyword.namespace //
 .highlight .kp { color: #859900; } // keyword.pseudo //
 .highlight .kr { color: #268bd2; } // keyword.reserved //
-.highlight .kt { color: #3CB371; } // keyword.type //
+.highlight .kt { color: #48D1CC; } // keyword.type //
 .highlight .ld { color: #93a1a1; } // literal.date //
 .highlight .m { color: #8FBC8F; } // literal.number //
 .highlight .s { color: #E9967A; } // literal.string //
@@ -69,7 +69,7 @@ figure.highlight {
 .highlight .nd { color: #268bd2; } // name.decorator //
 .highlight .ni { color: #cb4b16; } // name.entity //
 .highlight .ne { color: #cb4b16; } // name.exception //
-.highlight .nf { color: #268bd2; } // name.function //
+.highlight .nf { color: #00CED1; } // name.function //
 .highlight .nl { color: #555; } // name.label //
 .highlight .nn { color: #93a1a1; } // name.namespace //
 .highlight .nx { color: #555; } // name.other //
