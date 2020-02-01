@@ -3,118 +3,118 @@
 //
 h1,
 h2 {
-    padding-bottom: .3em;
-    border-bottom: 1px solid #242424;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    font-weight: 600;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #242424;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  font-weight: 600;
 }
 
 h1 {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .page-content h1:first-of-type {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 h2 {
-    margin-top: 0;
-    color: #dcdcdc;
+  margin-top: 0;
+  color: #dcdcdc;
 }
 
 #title-Style,
 #title-as,
 #title-Code {
-    padding-left: .2em;
-    padding-right: .2em;
-    flex-grow: 0;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  flex-grow: 0;
 }
 
 #title-Style {
-    font-style: italic;
+  font-style: italic;
 }
 
-#title-Code { 
-    font-family: $mono-font-family;
-    padding-top: .8rem;
+#title-Code {
+  font-family: $mono-font-family;
+  padding-top: 0.8rem;
 }
 
 .site-header {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .navigation-list-item {
-    @include fs-5;
+  @include fs-5;
 }
 
 .navigation-list-child-list > .navigation-list-item {
-    @include fs-4;
+  @include fs-4;
 }
 
 .main-nav {
-    display: block;
+  display: block;
 }
 
 .page-header,
 .site-header {
-    border-bottom-color: #343434;
+  border-bottom-color: #343434;
 }
 
 .side-bar {
-    border-right-color: #343434;
+  border-right-color: #343434;
 }
 
 hr {
-    background-color: #343434;
+  background-color: #343434;
 }
 
 code {
-    border-radius: 3px;
-    background-color: #222222;
-    border-color: rgba(255, 255, 255, .1);
-    color: #bebebe;
+  border-radius: 3px;
+  background-color: #222222;
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #bebebe;
 }
 
 .table-wrapper {
-    border-radius: 0em;    
+  border-radius: 0em;
 }
 
 table {
-    border-color: #343434;
-    color: #bebebe;
-    min-width: unset;
+  border-color: #343434;
+  color: #bebebe;
+  min-width: unset;
 }
 
 tr:nth-child(2n) {
-    background: #141414;
+  background: #141414;
 }
 
 thead th,
 td,
 th,
-tr{
-    border-color: rgb(52, 52, 52);
-    background: #1c1c1c;
+tr {
+  border-color: rgb(52, 52, 52);
+  background: #1c1c1c;
 }
 
 h4,
 .text-delta {
-    text-transform: none;
-    border-bottom-width: 0px;
+  text-transform: none;
+  border-bottom-width: 0px;
 }
 
 .navigation {
-    padding-top: 24px;
+  padding-top: 24px;
 }
 
 blockquote {
-    border-left: .25em solid #343434;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-right: 1em;
-    padding-left: 1em;
+  border-left: 0.25em solid #343434;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
 pre,
@@ -123,56 +123,56 @@ ol,
 ul,
 p,
 blockquote {
-    margin-left: .5em;
-    max-width: 700px;
+  margin-left: 0.5em;
+  max-width: 700px;
 }
 
-#edit-link{
-    float: right;
-    @include fs-3;
-    z-index: 10;
-    position: relative;
+#edit-link {
+  float: right;
+  @include fs-3;
+  z-index: 10;
+  position: relative;
 }
 
 #main-content {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 .breadcrumb-nav {
-    @include mq(md) {
-      margin-bottom: $sp-2;
-      margin-top: -$sp-5;
-    }
+  @include mq(md) {
+    margin-bottom: $sp-2;
+    margin-top: -$sp-5;
+  }
 }
 
-.breadcrumb-nav-list{
-    margin-bottom: 0px;
+.breadcrumb-nav-list {
+  margin-bottom: 0px;
 }
 
 ::-webkit-scrollbar {
-    background-color: $grey-dk-300;
-    color: #2a2c2e;
+  background-color: $grey-dk-300;
+  color: #2a2c2e;
 }
 
 ::-webkit-scrollbar-corner {
-    background-color: $grey-dk-300;
+  background-color: $grey-dk-300;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #2a2c2e;
+  background-color: #2a2c2e;
 }
 
 .text-small {
-    margin-bottom: 0rem !important;
-    margin-left: 0em;
-    display: flex;
-    justify-content: space-evenly;
+  margin-bottom: 0rem !important;
+  margin-left: 0em;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .site-footer {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
