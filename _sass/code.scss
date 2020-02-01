@@ -30,19 +30,19 @@ figure.highlight {
   border-radius: $border-radius;
 }
 
-.highlight .c { color: #586e75; } // comment //
+.highlight .c { color: #6B8E23; } // comment //
 .highlight .err { color: #93a1a1; } // error //
 .highlight .g { color: #93a1a1; } // generic //
-.highlight .k { color: #859900; } // keyword //
-.highlight .l { color: #93a1a1; } // literal //
-.highlight .n { color: #93a1a1; } // name //
-.highlight .o { color: #859900; } // operator //
+.highlight .k { color: #48D1CC; } // keyword //
+.highlight .l { color: #D3D3D3; } // literal //
+.highlight .n { color: #00CED1; } // name //
+.highlight .o { color: #00CED1; } // operator //
 .highlight .x { color: #cb4b16; } // other //
 .highlight .p { color: #93a1a1; } // punctuation //
-.highlight .cm { color: #586e75; } // comment.multiline //
-.highlight .cp { color: #859900; } // comment.preproc //
-.highlight .c1 { color: #586e75; } // comment.single //
-.highlight .cs { color: #859900; } // comment.special //
+.highlight .cm { color: #6B8E23; } // comment.multiline //
+.highlight .cp { color: #6B8E23; } // comment.preproc //
+.highlight .c1 { color: #6B8E23; } // comment.single //
+.highlight .cs { color: #6B8E23; } // comment.special //
 .highlight .gd { color: #2aa198; } // generic.deleted //
 .highlight .ge { font-style: italic; color: #93a1a1; } // generic.emph //
 .highlight .gr { color: #dc322f; } // generic.error //
@@ -53,15 +53,15 @@ figure.highlight {
 .highlight .gs { font-weight: bold; color: #93a1a1; } // generic.strong //
 .highlight .gu { color: #cb4b16; } // generic.subheading //
 .highlight .gt { color: #93a1a1; } // generic.traceback //
-.highlight .kc { color: #cb4b16; } // keyword.constant //
+.highlight .kc { color: #DA70D6; } // keyword.constant //
 .highlight .kd { color: #268bd2; } // keyword.declaration //
-.highlight .kn { color: #859900; } // keyword.namespace //
+.highlight .kn { color: #ADD8E6; } // keyword.namespace //
 .highlight .kp { color: #859900; } // keyword.pseudo //
 .highlight .kr { color: #268bd2; } // keyword.reserved //
-.highlight .kt { color: #dc322f; } // keyword.type //
+.highlight .kt { color: #3CB371; } // keyword.type //
 .highlight .ld { color: #93a1a1; } // literal.date //
-.highlight .m { color: #2aa198; } // literal.number //
-.highlight .s { color: #2aa198; } // literal.string //
+.highlight .m { color: #8FBC8F; } // literal.number //
+.highlight .s { color: #E9967A; } // literal.string //
 .highlight .na { color: #555; } // name.attribute //
 .highlight .nb { color: #b58900; } // name.builtin //
 .highlight .nc { color: #268bd2; } // name.class //
